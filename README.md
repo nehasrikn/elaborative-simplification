@@ -18,4 +18,4 @@ Much of modern day text simplification research focuses on sentence-level simpli
 
 ## Data + Code
 
-Data and code coming soon!
+Data and code coming soon! (In the meantime, please contact the authors!)
