@@ -1,0 +1,319 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+<link href = "https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+
+<style>
+	body {
+		padding-left: 20px;
+		margin-bottom: 10px;
+		font: Roboto;
+	}
+	#outer-container {
+	    display: flex;
+	    justify-content: space-around;
+	    max-width: 900px;
+	}
+	.left-container {
+    	margin-right: auto;
+    	padding-right: 50px;
+    	width: 50%;
+	}
+	.right-container {
+    	margin-left: auto;
+    	padding-left: 50px;
+    	width: 50%;
+	}
+	#vertical-separator {
+	    border: solid 1px #d5dbdb;
+	}
+	table.minimalistBlack {
+	  border: 3px solid #000000;
+	  width: 100%;
+	  text-align: left;
+	  border-collapse: collapse;
+	  margin-top: 10px;
+	}
+	table.minimalistBlack td, table.minimalistBlack th {
+	  border: 1px solid #000000;
+	  padding: 5px 4px;
+	}
+	table.minimalistBlack tbody td {
+	  font-size: 13px;
+	}
+	table.minimalistBlack thead {
+	  background: #CFCFCF;
+	  background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+	  background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+	  background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+	  border-bottom: 3px solid #000000;
+	}
+	table.minimalistBlack thead th {
+	  font-size: 15px;
+	  font-weight: bold;
+	  color: #000000;
+	  text-align: left;
+	}
+	table.minimalistBlack tfoot td {
+	  font-size: 14px;
+	}
+
+	.tooltip {
+	  position: relative;
+	  display: inline-block;
+	  /*border-bottom: 1px dotted black; */
+	}
+	.tooltip .tooltiptext {
+	  visibility: hidden;
+	  width: 300px;
+	  background-color: #076357;
+	  color: #fff;
+	  text-align: center;
+	  padding: 10px 0;
+	  border-radius: 10px;
+	  position: absolute;
+	  z-index: 1;
+	  opacity: 0;
+	  transition: opacity 0.2s;
+	  top: 150%;
+	  left: 50%;
+	  margin-left: -60px;
+	}
+	.tooltip:hover .tooltiptext {
+		opacity: 1;
+		visibility: visible;
+	}
+	.tooltip .tooltiptext::after {
+	  content: " ";
+	  position: absolute;
+	  bottom: 100%;  /* At the top of the tooltip */
+	  left: 20%;
+	  margin-left: -5px;
+	  border-width: 5px;
+	  border-style: solid;
+	  border-color: transparent transparent black transparent;
+	}
+	.collapsible {
+	  background-color:  #ccc;
+	  color: #444;
+	  cursor: pointer;
+	  padding: 5px;
+	  width: 50%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 20px;
+	  height:30px;
+	  border-radius: 12px;
+	}
+
+	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+	.active, .collapsible:hover {
+	  background-color: #ccc;
+	}
+
+	/* Style the collapsible content. Note: hidden by default */
+	.content {
+	  padding: 0 18px;
+	  background-color: #f1f1f1;
+	  max-height: 0px;
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	  width: 75%;
+	}
+	.collapsible:after {
+	  content: '\02795'; /* Unicode character for "plus" sign (+) */
+	  font-size: 13px;
+	  color: white;
+	  float: right;
+	  margin-left: 5px;
+	}
+
+	.active:after {
+	  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
+
+	input {
+		border-top-style: hidden;
+		border-right-style: hidden;
+		border-left-style: hidden;
+		border-bottom-style: groove;
+    }
+
+    .no-outline:focus {
+      outline: none;
+    }
+
+    .ui-autocomplete .ui-menu-item { 
+    	font-family: roboto;
+    	font-size: 0.85em;
+    }
+
+    .ui-state-active a,
+	.ui-state-active a:link,
+	.ui-state-active a:visited {
+	    color: #e36b10;
+
+	}
+	.ui-widget-content .ui-state-active {
+	    color: #e36b10;
+	    border: 0.5px solid #363634;
+	    font-weight: normal;
+	}
+
+	.ui-menu .ui-menu-item a{
+    	color: #e36b10;
+    	border-radius: 0px;
+	}
+
+	li p { font-weight: normal; }
+
+</style>
+
+<crowd-form onsubmit="verifyHIT();">
+	<div>
+		<button id="coll_button" type="button" class="collapsible active" onload="clickCollapsible()"><b><u>Task Instructions</u></b></button>
+		<div class="content" style="max-height: 1200px !important; height: auto;">
+			<br>
+			<b><u><font color="#510bb5">Motivation:</font></b></u> Help elementary school children understand news articles better. <br>
+			<b><u><font color="#510bb5">Process:</font></b></u> “Text simplification”, which involves deleting unnecessary sentences, replacing difficult words with easy ones, and adding explanations. 
+			Our focus is on the last action: <b><u>adding explanations.</u></b>
+			<br>
+			<br>
+			<b><u><font color="#510bb5">Instructions:</font></b></u><br>
+			In each HIT, we will present you with multiple pairs of snippets (either all from the same document or multiple sets of sentences from different documents). You will see a paragraph introducing the content of the document, as well a set of tabs. <b><u>For each tab</u></b>, you will read the text under <b>Original Text</b> and <b>Simplified Text</b>, and determine whether or not the content of the highlighted sentence in the <b>Simplified Text</b> section exists in some form in the original text (synonyms, paraphrase, etc). If you think it is a content addition, select <font color="green"><b>Yes</b></font> and: 
+
+			 <ol style="font-weight: bold;">
+			 	<li>
+			 		<p>
+			 			Decide to what degree the highlighted sentence depends on the sentences around it. In other words, if taken out of context, would the sentence make sense? If the sentence requires low context for understanding, rate it a 1, if it requires high context (i.e it is an analysis or inference of something), then rate it higher. Simple definitions of concepts (for example, "An artery is a tube that transports blood.") require little context, whereas more complex analysis sentences require lots of context from the snippet.
+			 		</p>
+			 	</li>
+			 	<li>
+			 		<p>
+			 			Provide an explanation for your rating.
+			 		</p>
+			 	</li>
+			 	<li>
+			 		<p>
+			 			Provide a phrase that describes the idea/entity/concept the content is elaborating on.
+			 		</p>
+			 	</li>
+			 </ol>
+			
+			If you think the highlighted text span can be obtained by paraphrasing phrases in the original document, they are <b>not</b> added content, so please select <font color="#C84327"><b>No</b></font> and:
+			<ol style="font-weight: bold;">
+				<li>
+					<p>
+						Enter the sentence number from the hard document that contains the content! 
+					</p>
+				</li>
+
+				<li>
+					<p>
+						Enter an explanation for your sentence number.
+					</p>
+				</li>
+			</ol>
+			
+			If you cannot judge whether the highlighted sentence is an addition for some reason (e.g. you think the two snippets are unrelated), select <font color="#ccb00a"><b>Cannot judge</b></font> and explain.
+
+			<h4><u><font color="#510bb5">Content Addition Example</font></u></h4>
+			<img style="margin-top:-1em;" src="https://drive.google.com/uc?export=view&id=1TuZE3pRZQc1f96gQW9m0GnUhSesDazHB">
+			<br>
+			<h4><u><font color="#510bb5">Context Rating Example</font></u></h4>
+			<img style="margin-top:-1em; max-width:650px;" src="https://drive.google.com/uc?export=view&id=1sfMssQV8NFfIA3m-thd3QxT8av9IedOL">
+			<br><br>
+		</div>
+	<!-- ALL DATA -->
+  	<br>
+  	<div style="position: relative;">
+  		<p>Please complete each question on <u> <mark> <b>all tabs</b></mark></u> before submitting!</p>
+  		<crowd-button id="submit_button" form-action="submit">
+  			Submit
+  		</crowd-button>
+  		<div id="errorBox"></div>
+  		<br>
+  	</div>
+	
+	<script>
+
+		//AUTOCOMPLETE_FUNCTIONS
+
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    }
+		  });
+		}
+
+		function showExtraOptions(elementId) {
+	        var elem = document.getElementById(elementId);
+			if (elem.style.display === "none") {
+				elem.style.display = "block";
+			} else {
+				elem.style.display = "none";
+			}
+		}
+		function hideExtraOptions(elementId){
+  			document.getElementById(elementId).style.display = 'none';
+		}
+
+		function verifyTaskCompleted(taskNum){
+  			var taskCompleted = document.getElementById('is_addition_' + taskNum).checked || document.getElementById('not_addition_' + taskNum).checked || document.getElementById('unrelated_' + taskNum).checked;
+  			if(!taskCompleted){
+  				errorBox.innerHTML = '<crowd-alert type="error" dismissible>You must select yes, no, or unrelated for pair ' + taskNum + '.</crowd-alert>';
+  				return false
+  			}
+  			if(document.getElementById('is_addition_' + taskNum).checked) {
+  				var contextRating = document.getElementById('1_' + taskNum).checked || document.getElementById('2_' + taskNum).checked || document.getElementById('3_' + taskNum).checked || document.getElementById('4_' + taskNum).checked || document.getElementById('5_' + taskNum).checked;
+	  			if(!contextRating){
+	  				errorBox.innerHTML = '<crowd-alert type="error" dismissible>You must select a contextualization rating for pair ' + taskNum + '.</crowd-alert>';
+	  				return false
+	  			}
+	  			var freeText = document.getElementById('rating_explain_' + taskNum);
+	  			if(freeText.value === ""){
+	  					errorBox.innerHTML = '<crowd-alert type="error" dismissible>You must enter an rating explanation for pair ' + taskNum + '.</crowd-alert>';
+	  					return false
+				}
+
+  				var entityEntry = document.getElementById('addition_entity_' + taskNum)
+  				if(entityEntry.value === ""){
+  					errorBox.innerHTML = '<crowd-alert type="error" dismissible>You must enter an idea/concept/entity for pair ' + taskNum + '.</crowd-alert>';
+  					return false
+  				}
+  			} else if(document.getElementById('not_addition_' + taskNum).checked) {
+  				var hardSentNum = document.getElementById('hard_sent_' + taskNum)
+  				if(hardSentNum.value === ""){
+  					errorBox.innerHTML = '<crowd-alert type="error" dismissible>You must enter a sentence number from the original document for pair ' + taskNum + '.</crowd-alert>';
+  					return false
+  				}
+  				var notExplain = document.getElementById('not_explain_' + taskNum);
+	  			if(notExplain.value === ""){
+	  					errorBox.innerHTML = '<crowd-alert type="error" dismissible>You must enter an rating explanation for pair ' + taskNum + '.</crowd-alert>';
+	  					return false
+				}
+  			} else if(document.getElementById('unrelated_' + taskNum).checked) {
+  				var unrelated = document.getElementById('unrelated_entry_' + taskNum)
+  				if(unrelated.value === ""){
+  					errorBox.innerHTML = '<crowd-alert type="error" dismissible>You must enter an explanation for why the two snippets are unrelated for pair ' + taskNum + '.</crowd-alert>';
+  					return false
+  				}
+  			}
+  			return true;
+		}
+
+		//VERIFY_HIT_FUNC
+	</script>
+</crowd-form>
