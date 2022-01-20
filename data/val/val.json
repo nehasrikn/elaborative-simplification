@@ -1,0 +1,1348 @@
+{
+ "elaborations": [
+  {
+   "elaboration_identifier": "1153.25",
+   "newsela_document_number": 1153,
+   "sentence_number": 25,
+   "start_bigram": "His family",
+   "end_bigram": "in France .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "513.39",
+   "newsela_document_number": 513,
+   "sentence_number": 39,
+   "start_bigram": "They 'll",
+   "end_bigram": "South Korea .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "513.9",
+   "newsela_document_number": 513,
+   "sentence_number": 9,
+   "start_bigram": "It was",
+   "end_bigram": "year 2014 .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "131.31",
+   "newsela_document_number": 131,
+   "sentence_number": 31,
+   "start_bigram": "Money dried",
+   "end_bigram": "some towns .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "770.32",
+   "newsela_document_number": 770,
+   "sentence_number": 32,
+   "start_bigram": "Each had",
+   "end_bigram": "poetry contests .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "770.7",
+   "newsela_document_number": 770,
+   "sentence_number": 7,
+   "start_bigram": "What 's",
+   "end_bigram": "practice run .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1161.30",
+   "newsela_document_number": 1161,
+   "sentence_number": 30,
+   "start_bigram": "The hunting",
+   "end_bigram": "them out .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "393.32",
+   "newsela_document_number": 393,
+   "sentence_number": 32,
+   "start_bigram": "It 's",
+   "end_bigram": "burning fuels .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "393.33",
+   "newsela_document_number": 393,
+   "sentence_number": 33,
+   "start_bigram": "That leads",
+   "end_bigram": "global warming .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "393.50",
+   "newsela_document_number": 393,
+   "sentence_number": 50,
+   "start_bigram": "It might",
+   "end_bigram": "going up .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "9.44",
+   "newsela_document_number": 9,
+   "sentence_number": 44,
+   "start_bigram": "But he",
+   "end_bigram": "in secret .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "401.19",
+   "newsela_document_number": 401,
+   "sentence_number": 19,
+   "start_bigram": "It 's",
+   "end_bigram": "U.S. president .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "401.28",
+   "newsela_document_number": 401,
+   "sentence_number": 28,
+   "start_bigram": "The Ford",
+   "end_bigram": "older carriers .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "401.3",
+   "newsela_document_number": 401,
+   "sentence_number": 3,
+   "start_bigram": "They cost",
+   "end_bigram": "to build .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "401.56",
+   "newsela_document_number": 401,
+   "sentence_number": 56,
+   "start_bigram": "New inventions",
+   "end_bigram": "of missiles .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "401.57",
+   "newsela_document_number": 401,
+   "sentence_number": 57,
+   "start_bigram": "They 're",
+   "end_bigram": "ray guns .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1170.5",
+   "newsela_document_number": 1170,
+   "sentence_number": 5,
+   "start_bigram": "It 's",
+   "end_bigram": "cruel situation .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "658.18",
+   "newsela_document_number": 658,
+   "sentence_number": 18,
+   "start_bigram": "The ground",
+   "end_bigram": "fell in .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "661.17",
+   "newsela_document_number": 661,
+   "sentence_number": 17,
+   "start_bigram": "Elk are",
+   "end_bigram": "but larger .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "150.12",
+   "newsela_document_number": 150,
+   "sentence_number": 12,
+   "start_bigram": "Trucks that",
+   "end_bigram": "a convoy .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "150.6",
+   "newsela_document_number": 150,
+   "sentence_number": 6,
+   "start_bigram": "The parts",
+   "end_bigram": "the ground .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "407.3",
+   "newsela_document_number": 407,
+   "sentence_number": 3,
+   "start_bigram": "But ,",
+   "end_bigram": "the water .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "407.39",
+   "newsela_document_number": 407,
+   "sentence_number": 39,
+   "start_bigram": "They have",
+   "end_bigram": "called tentacles .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "407.50",
+   "newsela_document_number": 407,
+   "sentence_number": 50,
+   "start_bigram": "Jellies move",
+   "end_bigram": "'s current .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "920.19",
+   "newsela_document_number": 920,
+   "sentence_number": 19,
+   "start_bigram": "The Bushmen",
+   "end_bigram": "to eat .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "920.9",
+   "newsela_document_number": 920,
+   "sentence_number": 9,
+   "start_bigram": "Melatonin makes",
+   "end_bigram": "gets dark .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1050.12",
+   "newsela_document_number": 1050,
+   "sentence_number": 12,
+   "start_bigram": "the protesters",
+   "end_bigram": "protesters shouted .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1050.33",
+   "newsela_document_number": 1050,
+   "sentence_number": 33,
+   "start_bigram": "The United",
+   "end_bigram": "fair country .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "411.0",
+   "newsela_document_number": 411,
+   "sentence_number": 0,
+   "start_bigram": "ARIVACA ,",
+   "end_bigram": "from Mexico .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "411.2",
+   "newsela_document_number": 411,
+   "sentence_number": 2,
+   "start_bigram": "And they",
+   "end_bigram": "in Arizona .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "923.36",
+   "newsela_document_number": 923,
+   "sentence_number": 36,
+   "start_bigram": "The cost",
+   "end_bigram": "and housing .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1182.11",
+   "newsela_document_number": 1182,
+   "sentence_number": 11,
+   "start_bigram": "Workers also",
+   "end_bigram": "more quickly .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1182.27",
+   "newsela_document_number": 1182,
+   "sentence_number": 27,
+   "start_bigram": "The farms",
+   "end_bigram": "over Mexico .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1182.31",
+   "newsela_document_number": 1182,
+   "sentence_number": 31,
+   "start_bigram": "Often ,",
+   "end_bigram": "Zagory said .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "799.13",
+   "newsela_document_number": 799,
+   "sentence_number": 13,
+   "start_bigram": "Benjamin knew",
+   "end_bigram": "be heavy .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "799.20",
+   "newsela_document_number": 799,
+   "sentence_number": 20,
+   "start_bigram": "She uses",
+   "end_bigram": "make lists .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1056.17",
+   "newsela_document_number": 1056,
+   "sentence_number": 17,
+   "start_bigram": "The answer",
+   "end_bigram": "junk food .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1056.24",
+   "newsela_document_number": 1056,
+   "sentence_number": 24,
+   "start_bigram": "Being overweight",
+   "end_bigram": "health problems .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "929.13",
+   "newsela_document_number": 929,
+   "sentence_number": 13,
+   "start_bigram": "He must",
+   "end_bigram": "could spread .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "929.16",
+   "newsela_document_number": 929,
+   "sentence_number": 16,
+   "start_bigram": "They believe",
+   "end_bigram": "to others .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "674.6",
+   "newsela_document_number": 674,
+   "sentence_number": 6,
+   "start_bigram": "It can",
+   "end_bigram": "many days .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "547.41",
+   "newsela_document_number": 547,
+   "sentence_number": 41,
+   "start_bigram": "Nanosilver could",
+   "end_bigram": "Marina Quadros .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "803.6",
+   "newsela_document_number": 803,
+   "sentence_number": 6,
+   "start_bigram": "The program",
+   "end_bigram": "them together .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "803.7",
+   "newsela_document_number": 803,
+   "sentence_number": 7,
+   "start_bigram": "Then they",
+   "end_bigram": "the field .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "165.41",
+   "newsela_document_number": 165,
+   "sentence_number": 41,
+   "start_bigram": "But that",
+   "end_bigram": "had expected .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "1062.4",
+   "newsela_document_number": 1062,
+   "sentence_number": 4,
+   "start_bigram": "In the",
+   "end_bigram": "the country .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1062.6",
+   "newsela_document_number": 1062,
+   "sentence_number": 6,
+   "start_bigram": "A grand",
+   "end_bigram": "of citizens .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1062.7",
+   "newsela_document_number": 1062,
+   "sentence_number": 7,
+   "start_bigram": "They decide",
+   "end_bigram": "a crime .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1063.9",
+   "newsela_document_number": 1063,
+   "sentence_number": 9,
+   "start_bigram": "He warned",
+   "end_bigram": "to attack .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "295.4",
+   "newsela_document_number": 295,
+   "sentence_number": 4,
+   "start_bigram": "So President",
+   "end_bigram": "sign up .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "169.26",
+   "newsela_document_number": 169,
+   "sentence_number": 26,
+   "start_bigram": "Martin 's",
+   "end_bigram": "she appeared .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "1066.11",
+   "newsela_document_number": 1066,
+   "sentence_number": 11,
+   "start_bigram": "To compare",
+   "end_bigram": "heat scale .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "298.3",
+   "newsela_document_number": 298,
+   "sentence_number": 3,
+   "start_bigram": "It may",
+   "end_bigram": "'s leader .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "298.45",
+   "newsela_document_number": 298,
+   "sentence_number": 45,
+   "start_bigram": "That means",
+   "end_bigram": "secret information .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "553.11",
+   "newsela_document_number": 553,
+   "sentence_number": 11,
+   "start_bigram": "The feelings",
+   "end_bigram": "a chain .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "553.6",
+   "newsela_document_number": 553,
+   "sentence_number": 6,
+   "start_bigram": "The world",
+   "end_bigram": "the Internet .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "940.11",
+   "newsela_document_number": 940,
+   "sentence_number": 11,
+   "start_bigram": "They would",
+   "end_bigram": "other places .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "46.26",
+   "newsela_document_number": 46,
+   "sentence_number": 26,
+   "start_bigram": "Repairs and",
+   "end_bigram": "as often .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "46.44",
+   "newsela_document_number": 46,
+   "sentence_number": 44,
+   "start_bigram": "The entrances",
+   "end_bigram": "by snow .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "47.22",
+   "newsela_document_number": 47,
+   "sentence_number": 22,
+   "start_bigram": "They did",
+   "end_bigram": "nine years .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "49.23",
+   "newsela_document_number": 49,
+   "sentence_number": 23,
+   "start_bigram": "That is",
+   "end_bigram": "York combined .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "817.13",
+   "newsela_document_number": 817,
+   "sentence_number": 13,
+   "start_bigram": "Players who",
+   "end_bigram": "they heal .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "817.17",
+   "newsela_document_number": 817,
+   "sentence_number": 17,
+   "start_bigram": "Sometimes many",
+   "end_bigram": "their school .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "817.36",
+   "newsela_document_number": 817,
+   "sentence_number": 36,
+   "start_bigram": "The player",
+   "end_bigram": "online behavior .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "817.44",
+   "newsela_document_number": 817,
+   "sentence_number": 44,
+   "start_bigram": "He ranks",
+   "end_bigram": "test scores .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "817.6",
+   "newsela_document_number": 817,
+   "sentence_number": 6,
+   "start_bigram": "Some even",
+   "end_bigram": "scholarship offers .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "1079.12",
+   "newsela_document_number": 1079,
+   "sentence_number": 12,
+   "start_bigram": "Then they",
+   "end_bigram": "not chosen .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "1079.26",
+   "newsela_document_number": 1079,
+   "sentence_number": 26,
+   "start_bigram": "The mentor",
+   "end_bigram": "and life .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "1079.3",
+   "newsela_document_number": 1079,
+   "sentence_number": 3,
+   "start_bigram": "Scientists wanted",
+   "end_bigram": "somebody acts .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1079.33",
+   "newsela_document_number": 1079,
+   "sentence_number": 33,
+   "start_bigram": "Researchers will",
+   "end_bigram": "the future .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "192.2",
+   "newsela_document_number": 192,
+   "sentence_number": 2,
+   "start_bigram": "There was",
+   "end_bigram": "a midwife .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "192.37",
+   "newsela_document_number": 192,
+   "sentence_number": 37,
+   "start_bigram": "The laws",
+   "end_bigram": "whites separate .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "449.13",
+   "newsela_document_number": 449,
+   "sentence_number": 13,
+   "start_bigram": "The committee",
+   "end_bigram": "the Olympics .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "449.65",
+   "newsela_document_number": 449,
+   "sentence_number": 65,
+   "start_bigram": "It 's",
+   "end_bigram": "the Netherlands .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "450.0",
+   "newsela_document_number": 450,
+   "sentence_number": 0,
+   "start_bigram": "PHILADELPHIA ``",
+   "end_bigram": "in December .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "450.7",
+   "newsela_document_number": 450,
+   "sentence_number": 7,
+   "start_bigram": "Showing the",
+   "end_bigram": "really exists ;",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "580.7",
+   "newsela_document_number": 580,
+   "sentence_number": 7,
+   "start_bigram": "The sport",
+   "end_bigram": "used to .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "69.22",
+   "newsela_document_number": 69,
+   "sentence_number": 22,
+   "start_bigram": "Their case",
+   "end_bigram": "Supreme Court .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "199.13",
+   "newsela_document_number": 199,
+   "sentence_number": 13,
+   "start_bigram": "A liter",
+   "end_bigram": "a quart .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "204.24",
+   "newsela_document_number": 204,
+   "sentence_number": 24,
+   "start_bigram": "The National",
+   "end_bigram": "many areas .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "204.31",
+   "newsela_document_number": 204,
+   "sentence_number": 31,
+   "start_bigram": "They were",
+   "end_bigram": "of water .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "204.38",
+   "newsela_document_number": 204,
+   "sentence_number": 38,
+   "start_bigram": "At least",
+   "end_bigram": "have gas .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "204.39",
+   "newsela_document_number": 204,
+   "sentence_number": 39,
+   "start_bigram": "A total",
+   "end_bigram": "in Boulder .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "461.5",
+   "newsela_document_number": 461,
+   "sentence_number": 5,
+   "start_bigram": "In America",
+   "end_bigram": "poor have .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "461.7",
+   "newsela_document_number": 461,
+   "sentence_number": 7,
+   "start_bigram": "Presidents have",
+   "end_bigram": "government members .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "719.15",
+   "newsela_document_number": 719,
+   "sentence_number": 15,
+   "start_bigram": "She prefers",
+   "end_bigram": "through Congress .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "719.18",
+   "newsela_document_number": 719,
+   "sentence_number": 18,
+   "start_bigram": "She gets",
+   "end_bigram": "make promises .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "719.19",
+   "newsela_document_number": 719,
+   "sentence_number": 19,
+   "start_bigram": "Her goal",
+   "end_bigram": "their products .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "725.2",
+   "newsela_document_number": 725,
+   "sentence_number": 2,
+   "start_bigram": "The old",
+   "end_bigram": "bitter fight .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "983.1",
+   "newsela_document_number": 983,
+   "sentence_number": 1,
+   "start_bigram": "The U.S.",
+   "end_bigram": "with Japan .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "92.11",
+   "newsela_document_number": 92,
+   "sentence_number": 11,
+   "start_bigram": "So they",
+   "end_bigram": "experimental treatment .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "92.18",
+   "newsela_document_number": 92,
+   "sentence_number": 18,
+   "start_bigram": "HIV causes",
+   "end_bigram": "deadly disease .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "92.21",
+   "newsela_document_number": 92,
+   "sentence_number": 21,
+   "start_bigram": "The virus",
+   "end_bigram": "cause disease .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "92.24",
+   "newsela_document_number": 92,
+   "sentence_number": 24,
+   "start_bigram": "The virus",
+   "end_bigram": "virus won .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "92.38",
+   "newsela_document_number": 92,
+   "sentence_number": 38,
+   "start_bigram": "And that",
+   "end_bigram": "he said .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "92.7",
+   "newsela_document_number": 92,
+   "sentence_number": 7,
+   "start_bigram": "In the",
+   "end_bigram": "to death .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "92.8",
+   "newsela_document_number": 92,
+   "sentence_number": 8,
+   "start_bigram": "She was",
+   "end_bigram": "years old .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "1122.34",
+   "newsela_document_number": 1122,
+   "sentence_number": 34,
+   "start_bigram": "It seemed",
+   "end_bigram": "be difficult .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "1122.5",
+   "newsela_document_number": 1122,
+   "sentence_number": 5,
+   "start_bigram": "Geese often",
+   "end_bigram": "stay warm .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "356.19",
+   "newsela_document_number": 356,
+   "sentence_number": 19,
+   "start_bigram": "They are",
+   "end_bigram": "the earth .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "356.35",
+   "newsela_document_number": 356,
+   "sentence_number": 35,
+   "start_bigram": "It is",
+   "end_bigram": "potassium niobate .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "356.39",
+   "newsela_document_number": 356,
+   "sentence_number": 39,
+   "start_bigram": "He is",
+   "end_bigram": "chemistry professor .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "743.5",
+   "newsela_document_number": 743,
+   "sentence_number": 5,
+   "start_bigram": "Didymo produces",
+   "end_bigram": "snot . ''",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "743.8",
+   "newsela_document_number": 743,
+   "sentence_number": 8,
+   "start_bigram": "Lakes and",
+   "end_bigram": "become clogged .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "616.42",
+   "newsela_document_number": 616,
+   "sentence_number": 42,
+   "start_bigram": "A good",
+   "end_bigram": "Marshall Brown .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "616.8",
+   "newsela_document_number": 616,
+   "sentence_number": 8,
+   "start_bigram": "It is",
+   "end_bigram": "a museum .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "621.28",
+   "newsela_document_number": 621,
+   "sentence_number": 28,
+   "start_bigram": "He says",
+   "end_bigram": "to help .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "110.31",
+   "newsela_document_number": 110,
+   "sentence_number": 31,
+   "start_bigram": "She created",
+   "end_bigram": "Harry Potter .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "110.5",
+   "newsela_document_number": 110,
+   "sentence_number": 5,
+   "start_bigram": "The choice",
+   "end_bigram": "make sense .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "1011.7",
+   "newsela_document_number": 1011,
+   "sentence_number": 7,
+   "start_bigram": "Right now",
+   "end_bigram": "called rapamycin .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "115.34",
+   "newsela_document_number": 115,
+   "sentence_number": 34,
+   "start_bigram": "The man",
+   "end_bigram": "Gregory Berg .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "115.37",
+   "newsela_document_number": 115,
+   "sentence_number": 37,
+   "start_bigram": "POW stands",
+   "end_bigram": "action . ''",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "116.13",
+   "newsela_document_number": 116,
+   "sentence_number": 13,
+   "start_bigram": "Black people",
+   "end_bigram": "a home .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "116.15",
+   "newsela_document_number": 116,
+   "sentence_number": 15,
+   "start_bigram": "He was",
+   "end_bigram": "the government .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "116.27",
+   "newsela_document_number": 116,
+   "sentence_number": 27,
+   "start_bigram": "They call",
+   "end_bigram": "family name .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "116.7",
+   "newsela_document_number": 116,
+   "sentence_number": 7,
+   "start_bigram": "Everyone danced",
+   "end_bigram": "and laughed .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "373.14",
+   "newsela_document_number": 373,
+   "sentence_number": 14,
+   "start_bigram": "They have",
+   "end_bigram": "the years .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "373.16",
+   "newsela_document_number": 373,
+   "sentence_number": 16,
+   "start_bigram": "They wrote",
+   "end_bigram": "more money .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "373.22",
+   "newsela_document_number": 373,
+   "sentence_number": 22,
+   "start_bigram": "People are",
+   "end_bigram": "reforms . ''",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "630.49",
+   "newsela_document_number": 630,
+   "sentence_number": 49,
+   "start_bigram": "These old",
+   "end_bigram": "your fingers .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "630.7",
+   "newsela_document_number": 630,
+   "sentence_number": 7,
+   "start_bigram": "When the",
+   "end_bigram": "of paper .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1144.22",
+   "newsela_document_number": 1144,
+   "sentence_number": 22,
+   "start_bigram": "The pass",
+   "end_bigram": "mountain road .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "1144.6",
+   "newsela_document_number": 1144,
+   "sentence_number": 6,
+   "start_bigram": "It is",
+   "end_bigram": "kill them .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "885.12",
+   "newsela_document_number": 885,
+   "sentence_number": 12,
+   "start_bigram": "As he",
+   "end_bigram": "Thomas Jefferson .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "885.13",
+   "newsela_document_number": 885,
+   "sentence_number": 13,
+   "start_bigram": "The student",
+   "end_bigram": "freedom is .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "885.9",
+   "newsela_document_number": 885,
+   "sentence_number": 9,
+   "start_bigram": "That means",
+   "end_bigram": "to live .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "122.11",
+   "newsela_document_number": 122,
+   "sentence_number": 11,
+   "start_bigram": "The total",
+   "end_bigram": "put together .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "123.11",
+   "newsela_document_number": 123,
+   "sentence_number": 11,
+   "start_bigram": "Grandparents feel",
+   "end_bigram": "left behind .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "123.12",
+   "newsela_document_number": 123,
+   "sentence_number": 12,
+   "start_bigram": "Newspapers wrote",
+   "end_bigram": "older people .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "123.35",
+   "newsela_document_number": 123,
+   "sentence_number": 35,
+   "start_bigram": "Are they",
+   "end_bigram": "about loneliness ?",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "123.4",
+   "newsela_document_number": 123,
+   "sentence_number": 4,
+   "start_bigram": "They have",
+   "end_bigram": "of respect .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 2
+  },
+  {
+   "elaboration_identifier": "124.12",
+   "newsela_document_number": 124,
+   "sentence_number": 12,
+   "start_bigram": "Without papers",
+   "end_bigram": "travel freely .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 1
+  },
+  {
+   "elaboration_identifier": "255.36",
+   "newsela_document_number": 255,
+   "sentence_number": 36,
+   "start_bigram": "The protons",
+   "end_bigram": "protons collided .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  },
+  {
+   "elaboration_identifier": "255.37",
+   "newsela_document_number": 255,
+   "sentence_number": 37,
+   "start_bigram": "The crashes",
+   "end_bigram": "produced energy .",
+   "crowd_annotations": [],
+   "split": "val",
+   "contextual_specificity_label": 0
+  }
+ ],
+ "version": "v1",
+ "maintainer_name": "Neha Srikanth",
+ "maintainer_contact": "nehasrik@umd.edu",
+ "maintainer_website": "https://github.com/nehasrikn"
+}
