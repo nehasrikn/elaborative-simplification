@@ -1,6 +1,6 @@
 # Elaborative Simplification: Content Addition and Explanation Generation in Text Simplification
 
-This repository contains datasets + code for our Findings of ACL 2021 paper, [Elaborative Simplification: Content Addition and Explanation Generation in Text Simplification](https://arxiv.org/abs/2010.10035). 
+This repository contains resources for our Findings of ACL 2021 paper, [Elaborative Simplification: Content Addition and Explanation Generation in Text Simplification](https://arxiv.org/abs/2010.10035). 
 
 ```bibtex
 @inproceedings{srikanth-li-2021-elaborative,
